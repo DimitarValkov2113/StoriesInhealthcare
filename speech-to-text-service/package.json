@@ -1,0 +1,22 @@
+{
+  "name": "speech-to-text-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-transcribe-streaming": "^3.758.0",
+    "aws-sdk": "^2.1692.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "stream": "^0.0.3",
+    "winston": "^3.17.0",
+    "ws": "^8.18.1"
+  }
+}
